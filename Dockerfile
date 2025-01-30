@@ -1,6 +1,7 @@
 FROM python:3.8
 
-RUN curl -sSL https://install.python-poetry.org | python3 -
+RUN apt-get update; apt-get install -y pipx
+RUN pipx install poetry
 
 ENV PATH="/root/.local/bin:$PATH"
 
