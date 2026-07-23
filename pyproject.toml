@@ -8,7 +8,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.8"
-django = "^4.1.5"
+django = "^4.2.30"
 folium = "^0.14.0"
 branca = "^0.6.0"
 pandas = "^1.5.3"
